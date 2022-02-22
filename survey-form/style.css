@@ -1,0 +1,62 @@
+#title{
+    text-align: center;
+    font-size: 2vw;
+    display:flex;
+    justify-content: center;
+    
+  }
+  #description{
+    font-size: 1vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    text-align:center;
+  }
+  input,select,textarea{
+    padding:0.5vw;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  body{
+    background: #0DA185;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+  }
+  #description{
+    display:flex;
+    justify-content: center;
+  }
+  #survey-form{
+    border-radius: 5px;
+    background: #E8840C;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    padding: 50px;
+    padding-top:25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size:1vw;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  #submit{
+    background: #0DA185;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  #textarea{
+    padding: 2vw;
+  }
+  footer{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+  }
+  footer a {
+    text-decoration: none !important;
+
+  }
