@@ -202,4 +202,17 @@
     color: #BE3144;
     transform: translateY(5px);
   }
+  .code {
+    color: #303841;
+    transition: color 1s ease-out;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
   
+  .project:hover .code {
+    color: #ff7f50;
+  }
+  .rainbow-text {
+    background-image: repeating-linear-gradient(to left, green, yellow, orange, red);  -webkit-background-clip: text;
+    color: transparent;
+  }
